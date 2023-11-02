@@ -1,4 +1,4 @@
-var map = L.map('map').setView([10.699473657441606, 76.08935567428753], 25);
+var map = L.map('map').setView([10.699473657441606, 76.08935567428753], 19);
 
 map.options.autoClose = false;
 
@@ -6,7 +6,7 @@ map.options.autoClose = false;
 
 //osm 
 var osm =  L.tileLayer('https://tile.openstreetmap.org/{z}/{x}/{y}.png', {
-maxZoom: 21,
+maxZoom: 25,
 attribution: '&copy; <a href="http://www.openstreetmap.org/copyright">OpenStreetMap</a>'
 })
 
@@ -14,7 +14,7 @@ attribution: '&copy; <a href="http://www.openstreetmap.org/copyright">OpenStreet
 
 //google sat
 var gsat =  L.tileLayer('http://{s}.google.com/vt?lyrs=s&x={x}&y={y}&z={z}',{
-    maxZoom: 20,
+    maxZoom: 19,
     subdomains:['mt0','mt1','mt2','mt3']
 });
 osm.addTo(map)
@@ -199,25 +199,107 @@ var ANANDABHAIRAVII = L.icon({
 //bark
 
 
-var customIcon = L.divIcon({   //second floor
+var customIcon = L.divIcon({   //ground floor
     className: 'custom-icon',
-    html: '<div class="icon"></div><div class="label">Green Room 1 to 23</div>',
+    html: '<div class="icon"></div><div class="label">Green Room 1 to 11</div>',
     iconSize: [50, 50], // Adjust the size of the icon container
 });
 
+
+
+
 var customIcon2 = L.divIcon({   //first floor
     className: 'custom-icon2',
-    html: '<div class="icon"></div><div class="label">Green Room 24 to 45</div>',
+    html: '<div class="icon"></div><div class="label">Green Room 12 to 24</div>',
     iconSize: [50, 50], // Adjust the size of the icon container
 });
 
 var customIcon3 = L.divIcon({    //Second floor
     className: 'custom-icon3',
-    html: '<div class="icon"></div><div class="label">Green Room 46-60/div>',
+    html: '<div class="icon"></div><div class="label">Green Room 24 to 39</div>',
+    iconSize: [50, 50], // Adjust the size of the icon container
+});
+var customIcon24 = L.divIcon({   //ground floor
+    className: 'custom-icon',
+    html: '<div class="icon"></div><div class="label">Green Room 40 to 47 </div>',
     iconSize: [50, 50], // Adjust the size of the icon container
 });
 
 
+
+var customIcon34 = L.divIcon({   //first floor
+    className: 'custom-icon2',
+    html: '<div class="icon"></div><div class="label">Green Room 48 to 55</div>',
+    iconSize: [50, 50], // Adjust the size of the icon container
+});
+
+
+var customIcon44 = L.divIcon({   //first floor
+    className: 'custom-icon',
+    html: '<div class="icon"></div><div class="label">Green Room 55 to 57</div>',
+    iconSize: [50, 50], // Adjust the size of the icon container
+});
+
+var customIcon54 = L.divIcon({   //first floor
+    className: 'custom-icon2',
+    html: '<div class="icon"></div><div class="label">Green Room 58 to 69</div>',
+    iconSize: [50, 50], // Adjust the size of the icon container
+});
+
+var customIcon00 = L.divIcon({   //first floor
+    className: 'custom-icon',
+    html: '<div class="icon"></div><div class="label">Green Room 70</div>',
+    iconSize: [50, 50], // Adjust the size of the icon container
+});
+
+
+var trophee = L.divIcon({   //first floor
+    className: 'trophee',
+    html: '<div class="icon"></div><div class="label">Prize Room</div>',
+    iconSize: [30, 30], // Adjust the size of the icon container
+});
+
+var medical = L.divIcon({   //first floor
+    className: 'medical',
+    html: '<div class="icon"></div><div class="label">Medical Room</div>',
+    iconSize: [30, 30], // Adjust the size of the icon container
+});
+
+var registrationI = L.divIcon({   //first floor
+    className: 'registration',
+    html: '<div class="icon"></div><div class="label">State Kalotsav Registration</div>',
+    iconSize: [30, 30], // Adjust the size of the icon container
+});
+
+var mediaI = L.divIcon({   //first floor
+    className: 'media',
+    html: '<div class="icon"></div><div class="label">Ansar Media Production</div>',
+    iconSize: [30, 30], // Adjust the size of the icon container
+});
+
+var officeI = L.divIcon({   //first floor
+    className: 'office',
+    html: '<div class="icon"></div><div class="label">Programme Committee Office </div>',
+    iconSize: [30, 30], // Adjust the size of the icon container
+});
+
+var computer = L.divIcon({   //first floor
+    className: 'computer',
+    html: '<div class="icon"></div><div class="label">Tabulation/IT room</div>',
+    iconSize: [30, 30], // Adjust the size of the icon container
+});
+
+var liveI = L.divIcon({   //first floor
+    className: 'Live',
+    html: '<div class="icon"></div><div class="label">Live media office</div>',
+    iconSize: [30, 30], // Adjust the size of the icon container
+});
+
+var judge1 = L.divIcon({   //first floor
+    className: 'judge',
+    html: '<div class="icon"></div><div class="label">Judges and Principals</div>',
+    iconSize: [30, 30], // Adjust the size of the icon container
+});
 
 
 var greenLP = L.marker([10.699125243762452, 76.08880483564707], {
@@ -245,22 +327,64 @@ var greenLP6 = L.marker([10.699035655343925, 76.08866081723203], {
     icon: customIcon3,
 }).addTo(map).bindPopup("Second Floor");
 
+var greenAWC = L.marker([10.70051895118589, 76.08877312059447], {
+    icon: customIcon24,
+}).addTo(map).bindPopup("Ground Floor");
 
 
+var greenAWC2 = L.marker([10.700481774425985, 76.08871258513933], {
+    icon: customIcon34,
+}).addTo(map).bindPopup("Second Floor");
+
+var commerce1 = L.marker([10.701215130202472, 76.08916689402074], {
+    icon: customIcon44,
+}).addTo(map).bindPopup("Ground Floor");
+
+var commerce2 = L.marker([10.701120559158138, 76.08912270820812], {
+    icon: customIcon54,
+}).addTo(map).bindPopup("Second Floor");
+
+var ablock = L.marker([10.699464194917304, 76.0910868003223], {
+    icon: customIcon00,
+}).addTo(map).bindPopup("Ground Floor");
+
+var tropheeroom = L.marker([10.699105247888317, 76.09039313830625], {
+    icon: trophee,
+}).addTo(map).bindPopup("Prize Room")
+
+var medicalroom = L.marker([10.69930163241001, 76.09042239579226], {
+    icon: medical,
+}).addTo(map).bindPopup("Medical Room")
+
+var registration = L.marker([10.699133148091716, 76.09043371896453], {
+    icon: registrationI,
+}).addTo(map).bindPopup("Registration Room")
 
 
+var media = L.marker([10.699341369263886, 76.09044665973285], {
+    icon: mediaI,
+}).addTo(map).bindPopup("Media Room")
+
+var office = L.marker([10.69942193316572, 76.0899658833612], {
+    icon: officeI,
+}).addTo(map).bindPopup("Programme Committee office")
+
+var IT = L.marker([10.699425534877735, 76.08987804845006], {
+    icon: computer
+}).addTo(map).bindPopup('Tabulation/IT Room')
+
+var live = L.marker([10.699449255077399, 76.089842509182], {
+    icon: liveI
+}).addTo(map).bindPopup('Live Media Room (first floor)')
+
+var judges = L.marker([10.699621030686933, 76.0887446801236], {
+    icon: judge1
+}).addTo(map).bindPopup('Judges and Principals')
 
 
+var grenrooms = L.featureGroup([greenLP,greenLP2,greenLP3,greenLP4,greenLP5,greenLP6,greenAWC,greenAWC2,commerce1,commerce2])
 
-
-
-
-
-
-
-
-
-
+var misc = L.featureGroup([tropheeroom,medicalroom,registration,media,office,IT,live,judges])
 
 //Ground floor
 
@@ -301,14 +425,14 @@ var SREERAGAM  = L.marker([10.701164826547634, 76.0891779969983] , {icon: SREERA
 var popup25 = SREERAGAM .bindPopup('SREERAGAM ')
 
 var MARWA  = L.marker([10.700059777622847, 76.08968569567418] , {icon: MARWAI }).addTo(map)
-var popup28 = MARWA.bindPopup('MARWA ')
+var popup28 = MARWA .bindPopup('MARWA ')
 
 var ANANDABHAIRAVI  = L.marker([10.700088243025572, 76.08966118726822] , {icon: ANANDABHAIRAVII }).addTo(map)
 var popup31 = ANANDABHAIRAVI.bindPopup('ANANDABHAIRAVI ')
 
 
 var groundFloor = L.featureGroup([VANASPATHI,VANASPATHI2,VANASPATHI3,VANASPATHI4,SOORYAKANTHAM,SAHAANA,MOHANAM,
-    HAMSADHWANI,SAAVERI,DHANASREE,NEELAMBHARI,SREERAGAM,MARWA,ANANDABHAIRAVI])
+    HAMSADHWANI,SAAVERI,DHANASREE,NEELAMBHARI,SREERAGAM,MARWA,ANANDABHAIRAVI,ablock])
 
 
 //FIRST FLOOR
@@ -318,11 +442,10 @@ var popup7 = BHILAHARI.bindPopup('BHILAHARI')
 
 var CHARUKESI = L.marker([10.700112766989852, 76.08937266618754 ] , {icon: CHARUKESII }).addTo(map)
 var popup8 = CHARUKESI.bindPopup('CHARUKESI')
-CHARUKESI.addTo(map)
 
 var ABHOGI = L.marker([10.699161051603355, 76.090408179474] , {icon: ABHOGII }).addTo(map)
 var popup9 = ABHOGI.bindPopup('ABHOGI (B block)')
-ABHOGI.addTo(map)
+
 
 var ABHOGI2 = L.marker([10.698987103264134, 76.09036392302698] , {icon: ABHOGII }).addTo(map)
 var popup10 = ABHOGI2.bindPopup('ABHOGI (C Block)')
@@ -339,7 +462,7 @@ var popup27 = CHAKRAVAKAM .bindPopup('CHAKRAVAKAM ')
 var BIHAG  = L.marker([10.700079818476514, 76.08963181684805] , {icon: BIHAGI }).addTo(map)
 var popup26 = BIHAG .bindPopup('BIHAG ')
 
-var  AHIRI  = L.marker([10.7001440897146, 76.08936073123772] , {icon: AHRII }).addTo(map)
+var AHIRI  = L.marker([10.7001440897146, 76.08936073123772] , {icon: AHRII }).addTo(map)
 var popup29 =  AHIRI.bindPopup(' AHIRI ')
 
 var AMRITHAVARSHINI  = L.marker([10.70011935205628, 76.08941791068749] , {icon: AMRITHAVARSHINII }).addTo(map)
@@ -374,49 +497,84 @@ var KAFI  = L.marker([10.700086850223897, 76.08949454056238] , {icon: KAFII }).a
 var popup31 = KAFI.bindPopup('KAFI')
 
 
-
-
-
 var secondfloor = L.featureGroup([BAGESHRI, HINDOL,MARWA, PURVI,MEGH,ASARAVI,KHAMAJ,KAFI])
-
-
-
 
 
 //birder
 
-var baseMaps = {
-    "Sattelite": gsat,
-    "OSM": osm,
-};
-
-var klm = L.geoJSON(pointJson, { 
-    onEachFeature: function(feature, layer) {
-        layer.bindPopup(feature.properties.name)
-    }
-}
-    
-    );
-
-var overlayMaps = {
-    "Ground floor" :groundFloor,
-    "1st Floor" : firstfloor,
-    "2nd Floor" : secondfloor
-    };
-
-
-var layerControl = L.control.layers(baseMaps, overlayMaps, { collapsed: false}).addTo(map);
 
 
 //geojson
-groundFloor.addTo(map)
-firstfloor.addTo(map)
-secondfloor.addTo(map)
+
+// Create an array to store your markers
+var markers2 = [];
+
+// Add your markers to the array
+markers2.push(secondfloor);
+
+// Create a marker cluster group and add all the markers to it
+var markerCluster2 = L.markerClusterGroup();
+markerCluster2.addLayers(markers2);
+
+// Add the marker cluster group to the map
+map.addLayer(markerCluster2);
 
 
 
+var markers1 = [];
 
+markers1.push(firstfloor);
 
+// Create a marker cluster group and add all the markers to it
+var markerCluster1 = L.markerClusterGroup();
+markerCluster1.addLayers(markers1);
+
+// Add the marker cluster group to the map
+map.addLayer(markerCluster1);
+
+var markersG = [];
+
+markersG.push(groundFloor);
+
+// Create a marker cluster group and add all the markers to it
+var markerClusterG = L.markerClusterGroup();
+markerClusterG.addLayers(markersG);
+
+// Add the marker cluster group to the map
+map.addLayer(markerClusterG);
+
+var markersR = [];
+
+markersR.push(grenrooms);
+
+// Create a marker cluster group and add all the markers to it
+var markerClusterR = L.markerClusterGroup();
+markerClusterR.addLayers(markersR);
+
+// Add the marker cluster group to the map
+map.addLayer(markerClusterR);
+
+var markersR = [];
+
+markersR.push(grenrooms);
+
+// Create a marker cluster group and add all the markers to it
+var markerClusterR = L.markerClusterGroup();
+markerClusterR.addLayers(markersR);
+
+// Add the marker cluster group to the map
+map.addLayer(markerClusterR);
+
+var markersM= [];
+
+markersM.push(misc);
+
+// Create a marker cluster group and add all the markers to it
+var markerClusterM = L.markerClusterGroup();
+markerClusterM.addLayers(markersM);
+
+// Add the marker cluster group to the map
+map.addLayer(markerClusterM);
 
 
 if (!navigator.geolocation) {
@@ -429,6 +587,26 @@ if (!navigator.geolocation) {
         }, { enableHighAccuracy: true, timeout: 5000 });
     }, 2000);
 }
+
+
+var baseMaps = {
+    "Sattelite": gsat,
+    "OSM": osm,
+};
+
+
+
+var overlayMaps = {
+    "Ground floor" :markerClusterG,
+    "1st Floor" : markerCluster1,
+    "2nd Floor" : markerCluster2,
+    "Green Rooms" : markerClusterR,
+    "Special Rooms": markerClusterM,
+    };
+
+
+var layerControl = L.control.layers(baseMaps, overlayMaps, { collapsed: false}).addTo(map);
+
 
 var gpsloc, circ;
 
