@@ -304,82 +304,82 @@ var judge1 = L.divIcon({   //first floor
 
 var greenLP = L.marker([10.699125243762452, 76.08880483564707], {
     icon: customIcon,
-}).addTo(map).bindPopup("Ground Floor");
+}).bindPopup("Ground Floor");
 
 var greenLP2 = L.marker([10.699057360977138, 76.08849245693403], {
     icon: customIcon,
-}).addTo(map).bindPopup("Ground Floor");
+}).bindPopup("Ground Floor");
 
 var greenLP3 = L.marker([10.699065494529627, 76.08880050951397], {
     icon: customIcon2,
-}).addTo(map).bindPopup("First Floor");
+}).bindPopup("First Floor");
 
 var greenLP4 = L.marker([10.699024885502318, 76.0883665711027], {
     icon: customIcon2,
-}).addTo(map).bindPopup("First Floor");
+}).bindPopup("First Floor");
 
 var greenLP5 = L.marker([10.699251772932291, 76.08881035038581], {
     icon: customIcon3,
-}).addTo(map).bindPopup("Second Floor");
+}).bindPopup("Second Floor");
 
 
 var greenLP6 = L.marker([10.699035655343925, 76.08866081723203], {
     icon: customIcon3,
-}).addTo(map).bindPopup("Second Floor");
+}).bindPopup("Second Floor");
 
 var greenAWC = L.marker([10.70051895118589, 76.08877312059447], {
     icon: customIcon24,
-}).addTo(map).bindPopup("Ground Floor");
+}).bindPopup("Ground Floor");
 
 
 var greenAWC2 = L.marker([10.700481774425985, 76.08871258513933], {
     icon: customIcon34,
-}).addTo(map).bindPopup("Second Floor");
+}).bindPopup("Second Floor");
 
 var commerce1 = L.marker([10.701215130202472, 76.08916689402074], {
     icon: customIcon44,
-}).addTo(map).bindPopup("Ground Floor");
+}).bindPopup("Ground Floor");
 
 var commerce2 = L.marker([10.701120559158138, 76.08912270820812], {
     icon: customIcon54,
-}).addTo(map).bindPopup("Second Floor");
+}).bindPopup("Second Floor");
 
 var ablock = L.marker([10.699464194917304, 76.0910868003223], {
     icon: customIcon00,
-}).addTo(map).bindPopup("Ground Floor");
+}).bindPopup("Ground Floor");
 
 var tropheeroom = L.marker([10.699105247888317, 76.09039313830625], {
     icon: trophee,
-}).addTo(map).bindPopup("Prize Room")
+}).bindPopup("Prize Room")
 
 var medicalroom = L.marker([10.69930163241001, 76.09042239579226], {
     icon: medical,
-}).addTo(map).bindPopup("Medical Room")
+}).bindPopup("Medical Room")
 
 var registration = L.marker([10.699133148091716, 76.09043371896453], {
     icon: registrationI,
-}).addTo(map).bindPopup("Registration Room")
+}).bindPopup("Registration Room")
 
 
 var media = L.marker([10.699341369263886, 76.09044665973285], {
     icon: mediaI,
-}).addTo(map).bindPopup("Media Room")
+}).bindPopup("Media Room")
 
 var office = L.marker([10.69942193316572, 76.0899658833612], {
     icon: officeI,
-}).addTo(map).bindPopup("Programme Committee office")
+}).bindPopup("Programme Committee office")
 
 var IT = L.marker([10.699425534877735, 76.08987804845006], {
     icon: computer
-}).addTo(map).bindPopup('Tabulation/IT Room')
+}).bindPopup('Tabulation/IT Room')
 
 var live = L.marker([10.699449255077399, 76.089842509182], {
     icon: liveI
-}).addTo(map).bindPopup('Live Media Room (first floor)')
+}).bindPopup('Live Media Room (first floor)')
 
 var judges = L.marker([10.699621030686933, 76.0887446801236], {
     icon: judge1
-}).addTo(map).bindPopup('Judges and Principals')
+}).bindPopup('Judges and Principals')
 
 
 var grenrooms = L.featureGroup([greenLP,greenLP2,greenLP3,greenLP4,greenLP5,greenLP6,greenAWC,greenAWC2,commerce1,commerce2])
@@ -388,46 +388,46 @@ var misc = L.featureGroup([tropheeroom,medicalroom,registration,media,office,IT,
 
 //Ground floor
 
-var VANASPATHI = L.marker([10.69920717425842, 76.0887210700041] , {icon: VANASPATHII }).addTo(map)
+var VANASPATHI = L.marker([10.69920717425842, 76.0887210700041] , {icon: VANASPATHII })
 var popup14 = VANASPATHI.bindPopup('VANASPATHI (lab 5)')
 
-var VANASPATHI2 = L.marker([10.699113611163199, 76.08873716325755] , {icon: VANASPATHII }).addTo(map)
+var VANASPATHI2 = L.marker([10.699113611163199, 76.08873716325755] , {icon: VANASPATHII })
 var popup15 = VANASPATHI2.bindPopup('VANASPATHI (lab 6)')
 
-var VANASPATHI3 = L.marker([10.69900687012808, 76.08865803809793] , {icon: VANASPATHII }).addTo(map) //basement
+var VANASPATHI3 = L.marker([10.69900687012808, 76.08865803809793] , {icon: VANASPATHII }) //basement
 var popup16 = VANASPATHI3.bindPopup('VANASPATHI (lab 4)')
 
-var VANASPATHI4 = L.marker([10.698993692220384, 76.08847967120542] , {icon: VANASPATHII }).addTo(map)  //basement icon
+var VANASPATHI4 = L.marker([10.698993692220384, 76.08847967120542] , {icon: VANASPATHII })  //basement icon
 var popup17 = VANASPATHI4.bindPopup('VANASPATHI (lab 7/3)')
 
-var SOORYAKANTHAM = L.marker([10.699681578248015, 76.09008363215514] , {icon: SOORYAKANTHAMI }).addTo(map)
+var SOORYAKANTHAM = L.marker([10.699681578248015, 76.09008363215514] , {icon: SOORYAKANTHAMI })
 var popup18 = SOORYAKANTHAM.bindPopup('SOORYAKANTHAM')
 
-var SAHAANA = L.marker([10.699228150673088, 76.08961959249201] , {icon: SAHAANAI }).addTo(map)
+var SAHAANA = L.marker([10.699228150673088, 76.08961959249201] , {icon: SAHAANAI })
 var popup19 = SAHAANA.bindPopup('SAHAANA')
 
-var MOHANAM = L.marker([10.69921730496142, 76.08941355735553] , {icon: MOHANAMI }).addTo(map)
+var MOHANAM = L.marker([10.69921730496142, 76.08941355735553] , {icon: MOHANAMI })
 var popup20 = MOHANAM.bindPopup('MOHANAM')
 
-var HAMSADHWANI = L.marker([10.699275148752525, 76.08925903100317] , {icon: HAMSADHWANII }).addTo(map)
+var HAMSADHWANI = L.marker([10.699275148752525, 76.08925903100317] , {icon: HAMSADHWANII })
 var popup21 = HAMSADHWANI.bindPopup('HAMSADHWANI')
 
-var SAAVERI = L.marker([10.69928599446213, 76.08911922144627] , {icon: SAAVERII }).addTo(map)
+var SAAVERI = L.marker([10.69928599446213, 76.08911922144627] , {icon: SAAVERII })
 var popup22 = SAAVERI.bindPopup('SAAVERI')
 
-var DHANASREE = L.marker([10.69984727509778, 76.08926198259117] , {icon: DHANASREEI }).addTo(map)
+var DHANASREE = L.marker([10.69984727509778, 76.08926198259117] , {icon: DHANASREEI })
 var popup23 = DHANASREE.bindPopup('DHANASREE')
 
-var NEELAMBHARI  = L.marker([10.700977467289936, 76.08880748844285] , {icon: NEELAMBHARII }).addTo(map)
+var NEELAMBHARI  = L.marker([10.700977467289936, 76.08880748844285] , {icon: NEELAMBHARII })
 var popup24 = NEELAMBHARI .bindPopup('NEELAMBHARI ')
 
-var SREERAGAM  = L.marker([10.701164826547634, 76.0891779969983] , {icon: SREERAGAMI }).addTo(map)
+var SREERAGAM  = L.marker([10.701164826547634, 76.0891779969983] , {icon: SREERAGAMI })
 var popup25 = SREERAGAM .bindPopup('SREERAGAM ')
 
-var MARWA  = L.marker([10.700059777622847, 76.08968569567418] , {icon: MARWAI }).addTo(map)
+var MARWA  = L.marker([10.700059777622847, 76.08968569567418] , {icon: MARWAI })
 var popup28 = MARWA .bindPopup('MARWA ')
 
-var ANANDABHAIRAVI  = L.marker([10.700088243025572, 76.08966118726822] , {icon: ANANDABHAIRAVII }).addTo(map)
+var ANANDABHAIRAVI  = L.marker([10.700088243025572, 76.08966118726822] , {icon: ANANDABHAIRAVII })
 var popup31 = ANANDABHAIRAVI.bindPopup('ANANDABHAIRAVI ')
 
 
@@ -437,35 +437,35 @@ var groundFloor = L.featureGroup([VANASPATHI,VANASPATHI2,VANASPATHI3,VANASPATHI4
 
 //FIRST FLOOR
 
-var BHILAHARI = L.marker([10.699464058173962, 76.09059998782192] , {icon: BHILAHARII }).addTo(map)
+var BHILAHARI = L.marker([10.699464058173962, 76.09059998782192] , {icon: BHILAHARII })
 var popup7 = BHILAHARI.bindPopup('BHILAHARI')
 
-var CHARUKESI = L.marker([10.700112766989852, 76.08937266618754 ] , {icon: CHARUKESII }).addTo(map)
+var CHARUKESI = L.marker([10.700112766989852, 76.08937266618754 ] , {icon: CHARUKESII })
 var popup8 = CHARUKESI.bindPopup('CHARUKESI')
 
-var ABHOGI = L.marker([10.699161051603355, 76.090408179474] , {icon: ABHOGII }).addTo(map)
+var ABHOGI = L.marker([10.699161051603355, 76.090408179474] , {icon: ABHOGII })
 var popup9 = ABHOGI.bindPopup('ABHOGI (B block)')
 
 
-var ABHOGI2 = L.marker([10.698987103264134, 76.09036392302698] , {icon: ABHOGII }).addTo(map)
+var ABHOGI2 = L.marker([10.698987103264134, 76.09036392302698] , {icon: ABHOGII })
 var popup10 = ABHOGI2.bindPopup('ABHOGI (C Block)')
 
-var BHAVAPRIYA = L.marker([10.69891198917551, 76.09035989972062] , {icon: BHAVAPRIYAI }).addTo(map)
+var BHAVAPRIYA = L.marker([10.69891198917551, 76.09035989972062] , {icon: BHAVAPRIYAI })
 var popup14 = BHAVAPRIYA.bindPopup('BHAVAPRIYA')
 
-var KALYANI  = L.marker([10.699421732080468, 76.08992795794437] , {icon: KALYANII }).addTo(map)
+var KALYANI  = L.marker([10.699421732080468, 76.08992795794437] , {icon: KALYANII })
 var popup26 = KALYANI.bindPopup('KALYANI ')
 
-var CHAKRAVAKAM  = L.marker([10.700121597915517, 76.08968359958921] , {icon: CHAKRAVAKAMI }).addTo(map)
+var CHAKRAVAKAM  = L.marker([10.700121597915517, 76.08968359958921] , {icon: CHAKRAVAKAMI })
 var popup27 = CHAKRAVAKAM .bindPopup('CHAKRAVAKAM ')
 
-var BIHAG  = L.marker([10.700079818476514, 76.08963181684805] , {icon: BIHAGI }).addTo(map)
+var BIHAG  = L.marker([10.700079818476514, 76.08963181684805] , {icon: BIHAGI })
 var popup26 = BIHAG .bindPopup('BIHAG ')
 
-var AHIRI  = L.marker([10.7001440897146, 76.08936073123772] , {icon: AHRII }).addTo(map)
+var AHIRI  = L.marker([10.7001440897146, 76.08936073123772] , {icon: AHRII })
 var popup29 =  AHIRI.bindPopup(' AHIRI ')
 
-var AMRITHAVARSHINI  = L.marker([10.70011935205628, 76.08941791068749] , {icon: AMRITHAVARSHINII }).addTo(map)
+var AMRITHAVARSHINI  = L.marker([10.70011935205628, 76.08941791068749] , {icon: AMRITHAVARSHINII })
 var popup26 = AMRITHAVARSHINI .bindPopup('AMRITHAVARSHINI ')
 
 
@@ -475,25 +475,25 @@ var firstfloor = L.featureGroup([BHILAHARI, ABHOGI2,CHARUKESI,ABHOGI,BHAVAPRIYA,
 
 //SECOND FLOOR
 
-var BAGESHRI = L.marker([10.699458872018775, 76.09069115252248] , {icon: BAGESHRII }).addTo(map)
+var BAGESHRI = L.marker([10.699458872018775, 76.09069115252248] , {icon: BAGESHRII })
 var popup11 = BAGESHRI.bindPopup('BAGESHRI')
 
-var HINDOL = L.marker([10.699236165633762, 76.0904846224364] , {icon: HINDOLI }).addTo(map)
+var HINDOL = L.marker([10.699236165633762, 76.0904846224364] , {icon: HINDOLI })
 var popup12 = HINDOL.bindPopup('HINDOL')
 
-var PURVI = L.marker([10.698815022987706, 76.09038647552862] , {icon: PURVII }).addTo(map)
+var PURVI = L.marker([10.698815022987706, 76.09038647552862] , {icon: PURVII })
 var popup13 = PURVI.bindPopup('PURVI')
 
-var MEGH  = L.marker([10.700117375377422, 76.08963114629584] , {icon: MEGHI }).addTo(map)
+var MEGH  = L.marker([10.700117375377422, 76.08963114629584] , {icon: MEGHI })
 var popup27 = MEGH.bindPopup('MEGH ')
 
-var ASARAVI  = L.marker([10.700137142165493, 76.08947758983574] , {icon: ASARAVII }).addTo(map)
+var ASARAVI  = L.marker([10.700137142165493, 76.08947758983574] , {icon: ASARAVII })
 var popup27 = ASARAVI.bindPopup('ASARAVI ')
 
-var KHAMAJ  = L.marker([10.70015097578137, 76.08937354288275] , {icon: KHAMAJII }).addTo(map)
+var KHAMAJ  = L.marker([10.70015097578137, 76.08937354288275] , {icon: KHAMAJII })
 var popup30 = KHAMAJ.bindPopup('KHAMAJ')
 
-var KAFI  = L.marker([10.700086850223897, 76.08949454056238] , {icon: KAFII }).addTo(map)
+var KAFI  = L.marker([10.700086850223897, 76.08949454056238] , {icon: KAFII })
 var popup31 = KAFI.bindPopup('KAFI')
 
 
