@@ -125,6 +125,62 @@ var WATI = L.icon({
 var CBLOCKI = L.icon({
     iconUrl: 'images/CBLOCK.png', 
     iconSize: [120, 69],
+
+})
+
+var FOOD = L.icon({
+    iconUrl: 'images/food.png', 
+    iconSize: [100, 50],
+
+})
+
+var AUDSTAGE = L.icon({
+    iconUrl: 'images/AUDSTAGE.png', 
+    iconSize: [100, 50],
+
+})
+
+
+var COOKING = L.icon({
+    iconUrl: 'images/COOKING.png', 
+    iconSize: [100, 50],
+
+})
+
+var AUD2I = L.icon({
+    iconUrl: 'images/AUD2.png', 
+    iconSize: [100, 50],
+
+})
+
+var GAMEI = L.icon({
+    iconUrl: 'images/GAMESZONE.png', 
+    iconSize: [100, 50],
+
+})
+
+var ARTI = L.icon({
+    iconUrl: 'images/ART.png', 
+    iconSize: [100, 50],
+
+})
+
+var ARTI = L.icon({
+    iconUrl: 'images/ART.png', 
+    iconSize: [100, 50],
+
+})
+
+var PHOTOI = L.icon({
+    iconUrl: 'images/PHOTO.png', 
+    iconSize: [75, 37],
+
+})
+
+var MEDICALI = L.icon({
+    iconUrl: 'images/MEDICAL.png', 
+    iconSize: [75, 37],
+
 })
 
 // //bark
@@ -198,62 +254,101 @@ var CBLOCKI = L.icon({
 // var VANASPATHI = L.marker([10.69920717425842, 76.0887210700041] , {icon: VANASPATHII }).addTo(map)
 // var popup14 = VANASPATHI.bindPopup('VANASPATHI (lab 5)')
 
-var PHALL = L.marker([10.699025523484186, 76.08837751645358] , {icon: PHALLI }).addTo(map)
-var popup15 = PHALL.bindPopup('Animation Cat 1&4 ')
+// var PHALL = L.marker([10.699025523484186, 76.08837751645358] , {icon: PHALLI }).addTo(map)
+// var popup15 = PHALL.bindPopup('Animation Cat 1&4 ')
 
-var IT7 = L.marker([10.69900687012808, 76.08865803809793] , {icon: IT7I }).addTo(map) //basement
-var popup16 = IT7.bindPopup('Digital Painting')
+// var IT7 = L.marker([10.69900687012808, 76.08865803809793] , {icon: IT7I }).addTo(map) //basement
+// var popup16 = IT7.bindPopup('Digital Painting')
+
 
 // var VANASPATHI4 = L.marker([10.698993692220384, 76.08847967120542] , {icon: VANASPATHII }).addTo(map)  //basement icon
 // var popup17 = VANASPATHI4.bindPopup('VANASPATHI (lab 7/3)')
 
+
+
+// PARENTS CARNIVAL (03 Jan 2026)
+
+
 var AUD = L.marker([10.699681578248015, 76.09008363215514] , {icon: AUDI }).addTo(map)
-var popup18 = AUD.bindPopup('Stalls for Projects')
+var popup18 = AUD.bindPopup('Stalls for businesses')
+
+var FOODSTALLS = L.marker([10.699575926865654, 76.09002045948253] , {icon: FOOD }).addTo(map)
+var popup19 = FOODSTALLS.bindPopup('Food Stalls')
+
+var AUDSTAGE1 = L.marker([10.699731769708585, 76.08987271393187] , {icon: AUDSTAGE }).addTo(map)
+var popup199 = AUDSTAGE1.bindPopup('Cultural Programs')
+
+var COOKING = L.marker([10.699818980201414, 76.09026614698627] , {icon: COOKING }).addTo(map)
+var popup197 = COOKING.bindPopup('Cookery Competition')
+
+var AUD2 = L.marker([10.699676669884374, 76.08995079491739] , {icon: AUD2I }).addTo(map)
+var popup178 = AUD2.bindPopup('Interactive Workshops')
+
+
+var GAMES = L.marker([10.699699042155107, 76.08967287680922] , {icon: GAMEI }).addTo(map)
+var popup1278 = GAMES.bindPopup('Games Zone')
+
+var ART = L.marker([10.699500939966782, 76.09079779449945] , {icon: ARTI }).addTo(map)
+var popup121 = ART.bindPopup('Art & Craft Exhibtion')
+
+var PHOTO = L.marker([10.698781087449472, 76.09015239144651] , {icon: PHOTOI }).addTo(map)
+var popup122 = PHOTO.bindPopup('Photo Booth')
+
+var MEDICAL = L.marker([10.698706497499865, 76.09015485950373] , {icon: MEDICALI }).addTo(map)
+var popup1222 = MEDICAL.bindPopup('Medical Camp')
+
+var LPHALL = L.marker([10.69984727509778, 76.08926198259117] , {icon: LPHALLI }).addTo(map)
+var popup23 = LPHALL.bindPopup('IPH Book Fair')
+
+// PARENTS CARNIVAL (03 Jan 2026)
+
+
+
+
 
 // var SAHAANA = L.marker([10.699228150673088, 76.08961959249201] , {icon: SAHAANAI }).addTo(map)
 // var popup19 = SAHAANA.bindPopup('SAHAANA')
 
-var LP = L.marker([10.699778122228965, 76.08911256977548] , {icon: PHALLI }).addTo(map)
-var popup20 = LP.bindPopup('Animation Cat 2&3')
+// var LP = L.marker([10.699778122228965, 76.08911256977548] , {icon: PHALLI }).addTo(map)
+// var popup20 = LP.bindPopup('Animation Cat 2&3')
 
-var WAT1 = L.marker([10.69963860591484, 76.09035700713237] , {icon: WATI }).addTo(map)
-var popup69 = WAT1.bindPopup('Water')
+// var WAT1 = L.marker([10.69963860591484, 76.09035700713237] , {icon: WATI }).addTo(map)
+// var popup69 = WAT1.bindPopup('Water')
 
-var WAT2 = L.marker([10.699214490503316, 76.08887244940611] , {icon: WATI }).addTo(map)
-var popup70 = WAT2.bindPopup('Water')
+// var WAT2 = L.marker([10.699214490503316, 76.08887244940611] , {icon: WATI }).addTo(map)
+// var popup70 = WAT2.bindPopup('Water')
 
-var WAT3 = L.marker([10.700923748673942, 76.0886301128648] , {icon: WATI }).addTo(map)
-var popup71 = WAT3.bindPopup('Water')
+// var WAT3 = L.marker([10.700923748673942, 76.0886301128648] , {icon: WATI }).addTo(map)
+// var popup71 = WAT3.bindPopup('Water')
 
-var WAT4 = L.marker([10.701216440918039, 76.0891263015702] , {icon: WATI }).addTo(map)
-var popup72 = WAT4.bindPopup('Water')
+// var WAT4 = L.marker([10.701216440918039, 76.0891263015702] , {icon: WATI }).addTo(map)
+// var popup72 = WAT4.bindPopup('Water')
 
-var WAT5 = L.marker([10.699433601331375, 76.09006628996319] , {icon: WATI }).addTo(map)
-var popup73 = WAT5.bindPopup('Water')
+// var WAT5 = L.marker([10.699433601331375, 76.09006628996319] , {icon: WATI }).addTo(map)
+// var popup73 = WAT5.bindPopup('Water')
 
-var WAT6 = L.marker([10.699038122446694, 76.08833396783021] , {icon: WATI }).addTo(map)
-var popup74 = WAT6.bindPopup('Water')
+// var WAT6 = L.marker([10.699038122446694, 76.08833396783021] , {icon: WATI }).addTo(map)
+// var popup74 = WAT6.bindPopup('Water')
 
-var WAT7 = L.marker([10.699855810430364, 76.08911851396898] , {icon: WATI }).addTo(map)
-var popup75 = WAT7.bindPopup('Water')
-
-
+// var WAT7 = L.marker([10.699855810430364, 76.08911851396898] , {icon: WATI }).addTo(map)
+// var popup75 = WAT7.bindPopup('Water')
 
 
-var BASKET = L.marker([10.698996931135266, 76.09000726393536] , {icon: BASKETI }).addTo(map)
-var popup22 = BASKET.bindPopup('Robo Race')
 
-var LPHALL = L.marker([10.69984727509778, 76.08926198259117] , {icon: LPHALLI }).addTo(map)
-var popup23 = LPHALL.bindPopup('Visual Coding & Games')
 
-var AWCAUD  = L.marker([10.700977467289936, 76.08880748844285] , {icon: AWCAUDI }).addTo(map)
-var popup24 = AWCAUD.bindPopup('Inauguration, Validatory & Tech talk 1')
+// var BASKET = L.marker([10.698996931135266, 76.09000726393536] , {icon: BASKETI }).addTo(map)
+// var popup22 = BASKET.bindPopup('Robo Race')
 
-var AWCCON  = L.marker([10.701164826547634, 76.0891779969983] , {icon: AWCCONI }).addTo(map)
-var popup25 = AWCCON.bindPopup('Tech talk 3 ')
 
-var IT2I  = L.marker([10.699479049837075, 76.09098536008268] , {icon: IT2I }).addTo(map)
-var popup31 = IT2I.bindPopup('Tech Talk 4 ')
+
+// var AWCAUD  = L.marker([10.700977467289936, 76.08880748844285] , {icon: AWCAUDI }).addTo(map)
+// var popup24 = AWCAUD.bindPopup('Inauguration, Validatory & Tech talk 1')
+
+// var AWCCON  = L.marker([10.701164826547634, 76.0891779969983] , {icon: AWCCONI }).addTo(map)
+// var popup25 = AWCCON.bindPopup('Tech talk 3 ')
+
+// var IT2I  = L.marker([10.699479049837075, 76.09098536008268] , {icon: IT2I }).addTo(map)
+// var popup31 = IT2I.bindPopup('Tech Talk 4 ')
 
 var WC1  = L.marker([10.699756982396757, 76.09078810391689] , {icon: MEN })
 var popup28 = WC1.bindPopup('MEN WC')
@@ -268,8 +363,8 @@ var popup29 = WC2.bindPopup('WOMEN WC')
 
 // //FIRST FLOOR
 
-var LBLOCK = L.marker([10.699660717021805, 76.08921369895897] , {icon: LBLOCKI }).addTo(map)
-var popup7 = LBLOCK.bindPopup('Portraits & Live Doodle Wall')
+// var LBLOCK = L.marker([10.699660717021805, 76.08921369895897] , {icon: LBLOCKI }).addTo(map)
+// var popup7 = LBLOCK.bindPopup('Portraits & Live Doodle Wall')
 
 // var CHARUKESI = L.marker([10.700112766989852, 76.08937266618754 ] , {icon: CHARUKESII }).addTo(map)
 // var popup8 = CHARUKESI.bindPopup('CHARUKESI')
@@ -285,11 +380,11 @@ var popup7 = LBLOCK.bindPopup('Portraits & Live Doodle Wall')
 // var BHAVAPRIYA = L.marker([10.69891198917551, 76.09035989972062] , {icon: BHAVAPRIYAI }).addTo(map)
 // var popup14 = BHAVAPRIYA.bindPopup('BHAVAPRIYA')
 
-var AVROOM  = L.marker([10.699421732080468, 76.08992795794437] , {icon: AVROOMI }).addTo(map)
-var popup26 = AVROOM.bindPopup('Tech Talk 2 ')
+// var AVROOM  = L.marker([10.699421732080468, 76.08992795794437] , {icon: AVROOMI }).addTo(map)
+// var popup26 = AVROOM.bindPopup('Tech Talk 2 ')
 
-var CBLOCK  = L.marker([10.698891589881574, 76.09030999060764] , {icon: CBLOCKI }).addTo(map)
-var popup27 = CBLOCK.bindPopup('Art Gallery ')
+// var CBLOCK  = L.marker([10.698891589881574, 76.09030999060764] , {icon: CBLOCKI }).addTo(map)
+// var popup27 = CBLOCK.bindPopup('Art Gallery ')
 
 // var BIHAG  = L.marker([10.700079818476514, 76.08963181684805] , {icon: BIHAGI }).addTo(map)
 // var popup26 = BIHAG .bindPopup('BIHAG ')
