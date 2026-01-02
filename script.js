@@ -183,6 +183,13 @@ var MEDICALI = L.icon({
 
 })
 
+var POTTERYI = L.icon({
+    iconUrl: 'images/pottery.png', 
+    iconSize: [75, 42],
+
+})
+
+
 // //bark
 
 
@@ -291,7 +298,7 @@ var popup1278 = GAMES.bindPopup('Games Zone')
 var ART = L.marker([10.699500939966782, 76.09079779449945] , {icon: ARTI }).addTo(map)
 var popup121 = ART.bindPopup('Art & Craft Exhibtion')
 
-var PHOTO = L.marker([10.698781087449472, 76.09015239144651] , {icon: PHOTOI }).addTo(map)
+var PHOTO = L.marker([10.699494270398981, 76.08988429868666] , {icon: PHOTOI }).addTo(map)
 var popup122 = PHOTO.bindPopup('Photo Booth')
 
 var MEDICAL = L.marker([10.698706497499865, 76.09015485950373] , {icon: MEDICALI }).addTo(map)
@@ -299,6 +306,10 @@ var popup1222 = MEDICAL.bindPopup('Medical Camp')
 
 var LPHALL = L.marker([10.69984727509778, 76.08926198259117] , {icon: LPHALLI }).addTo(map)
 var popup23 = LPHALL.bindPopup('IPH Book Fair')
+
+var POTTERY = L.marker([10.69967444207755, 76.0903899486701] , {icon: POTTERYI }).addTo(map)
+var popup234 = POTTERY.bindPopup('Pottery Making')
+
 
 // PARENTS CARNIVAL (03 Jan 2026)
 
