@@ -193,7 +193,7 @@ var POTTERYI = L.icon({
 // //bark
 
 
-// var customIcon = L.divIcon({   //second floor
+// var customIcon = L.divIcon({   //second flo00r
 //     className: 'custom-icon',
 //     html: '<div class="icon"></div><div class="label">Green Room 1 to 23</div>',
 //     iconSize: [50, 50], // Adjust the size of the icon container
